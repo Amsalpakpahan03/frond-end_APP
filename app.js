@@ -4,7 +4,7 @@ function addOrder(menu) {
   const order = { menu, table, time: new Date().toISOString() };
 
   if (navigator.onLine) {
-    fetch("http://localhost:3001/order", {
+    fetch("https://0d414b3da4ef.ngrok-free.app/order", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(order),
