@@ -1,0 +1,9 @@
+{
+  "name": "Warung Ndeso",
+  "short_name": "Ndeso",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Aplikasi Pemesanan Dine-In QR Offline-First",
+  "icons": []
+}
